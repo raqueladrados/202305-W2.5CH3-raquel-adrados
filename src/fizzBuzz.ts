@@ -1,4 +1,4 @@
-const arrayNumbers = (numberInitial: number, numberFinal: number) => {
+export const fizzBuzz = (numberInitial: number, numberFinal: number) => {
   let arrayContentsNumbers = [];
   for (let index = numberInitial; index <= numberFinal; index++) {
     arrayContentsNumbers.push(index);
@@ -17,4 +17,3 @@ const arrayNumbers = (numberInitial: number, numberFinal: number) => {
   }
   return arrayContentsNumbers;
 };
-console.log(arrayNumbers(2, 5));
